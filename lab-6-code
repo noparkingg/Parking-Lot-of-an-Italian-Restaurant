@@ -1,2 +1,6 @@
 #name input
 #good morning
+
+name = input("What is your name?")
+favoriteRecipe = input("What's your favorite recipe " + name + "?")
+print( "That recipe for " + favoriteRecipe.lower() + " sounds delicious, " + name + "!")
