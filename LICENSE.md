@@ -1,4 +1,0 @@
-#License
-##Terms
-
-##Conditions
