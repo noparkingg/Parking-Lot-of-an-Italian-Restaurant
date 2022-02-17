@@ -1,6 +1,17 @@
-#name input
 #good morning
 
-name = input("What is your name?")
+#name input
+name = input("What is your name?") 
+
+#age input
+age = input("How old are you?") 
+
+#recipe input
 favoriteRecipe = input("What's your favorite recipe " + name + "?")
 print( "That recipe for " + favoriteRecipe.lower() + " sounds delicious, " + name + "!")
+
+#age checker
+if (int(age)<16):
+    print("NO KNIVES!!!!!!")
+else:
+    print("Make sure to be safe!")
